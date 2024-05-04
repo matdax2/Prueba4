@@ -54,7 +54,7 @@ ROOT_URLCONF = 'intento4.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:/Users/PC/Desktop/Prueba4/intento4/intento4/plantillas/template1.html"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

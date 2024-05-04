@@ -20,7 +20,6 @@ from . import vista
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('saludo/', vista.saludo),
     path('mi_nombre/<nombre>', vista.mi_nombre),
-    path('primer_template', vista.probandoTemplate),
+    path('primer template/', vista.probandoTemplate),
 ]
