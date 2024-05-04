@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta> <time datetime="datetime"></time>
     <title>Document</title>
 </head>
 <body>
     <p>Mi nombre es {{nombre}} y mi apellido es {{apellido}}</p>
     <p>{% for nota in notas %}
         {% if nota < 4 %}
-        <p style="color: red;">Nota mala</p>
+        >Nota mala</p>
         {% else %}
-        <p style="color:rgb(0, 255, 47)">Nota buena</p>
+        >Nota buena</p>
         {% endif %}
           <br>
     {% endfor %}</p>

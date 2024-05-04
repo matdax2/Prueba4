@@ -21,5 +21,5 @@ from . import vista
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('mi_nombre/<nombre>', vista.mi_nombre),
-    path('primer template/', vista.probandoTemplate),
+    path('primer_template/', vista.probandoTemplate),
 ]
