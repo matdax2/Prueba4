@@ -1,5 +1,5 @@
 """
-URL configuration for intento4 project.
+URL configuration for proyectiño project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -16,10 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from . import vista
+from PrimerApp.views import curso
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('mi_nombre/<nombre>', vista.mi_nombre),
-    path('primer_template/', vista.probandoTemplate),
+    path('curso/', curso),
 ]
