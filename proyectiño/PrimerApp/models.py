@@ -8,12 +8,13 @@ class Curso(models.Model):
 class Estudiante(models.Model):
     nombre = models.CharField(max_length=100)
     apellido = models.CharField(max_length=100)
-    email = models.EmailField()
+    edad = models.IntegerField()
+    email = models.EmailField(max_length=100)
 
 class Profesor(models.Model):
     nombre = models.CharField(max_length=100)
     apellido = models.CharField(max_length=100)
-    email = models.EmailField()
+    email = models.EmailField(max_length=100)
     profesion = models.CharField(max_length=100)
 
 class Entregable(models.Model):
